@@ -28,11 +28,12 @@ This is a Flask web application that predicts weather conditions for the next 3 
 4. Run the Flask app:
     ```
     flask run
-    
+    ```
     or
-
+    ```
     python app.py
     ```
+
 
 ## Database
 
