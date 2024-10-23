@@ -18,10 +18,11 @@ def forecast():
         temperature = float(request.form['temperature'])
         humidity = float(request.form['humidity'])
         wind_speed = float(request.form['wind_speed'])
-        pressure = float(request.form['pressure'])
+        pressure = float(request.form['pressure']) 
         precip_type = request.form['precip_type']
 
         # Mã hóa precip_type thành số
+        
         precip_type_numeric = 0 if precip_type == "rain" else 1
 
         # Dự báo sử dụng mô hình mạng nơron
